@@ -24,6 +24,7 @@ end
 require_relative 'helpers/init'
 require_relative 'config/init'
 require_relative 'workers/init'
+require_relative 'lib/init'
 
 Sidekiq::Cron::Job.destroy_all!
 

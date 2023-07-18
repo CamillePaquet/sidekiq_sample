@@ -4,6 +4,8 @@
       :redis:
         :jobs:
           :url: redis://localhost:6379/1
+        :tutoriel:
+          :url: redis://localhost:6379/2
 
   :development:
     :application:
