@@ -1,0 +1,5 @@
+source 'https://rubygems.org'
+gem 'carioca', '~> 2.0'
+gem 'sidekiq', '~> 6.4.1'
+gem 'sidekiq-cron', '~> 1.2'
+gem 'redis', '~>4.6'
